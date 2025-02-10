@@ -1,8 +1,9 @@
-package testProject
+package main
 
 import "fmt"
 
 func main() {
 	a := 2
-	fmt.Printf("%d", a)
+	b := 3
+	fmt.Printf("%d + %d = %d", a, b, a+b)
 }
