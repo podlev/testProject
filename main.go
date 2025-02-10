@@ -4,5 +4,6 @@ import "fmt"
 
 func main() {
 	a := 2
-	fmt.Printf("%d", a)
+	b := 2
+	fmt.Printf("%d + %d", a, b)
 }
